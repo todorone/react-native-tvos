@@ -67,7 +67,7 @@ To use this NPM package in a new project, you can reference it as in the followi
 # Make sure you have the CLI installed globally (this only needs to be done once on your system)
 npm install -g react-native-cli
 # Init an app called 'TestApp', note that you must not be in a node module (directory with node_modules sub-directory) for this to work
-react-native init TestApp --version=react-native@npm:react-native-tvos@latest
+react-native init TestApp --version=npm:react-native-tvos@latest
 # Now start the app in the tvOS Simulator - this will only work on a macOS machine
 cd TestApp && react-native run-ios  --simulator "Apple TV" --scheme "TestApp-tvOS"
 ```
